@@ -7,25 +7,20 @@ const globalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
 
-    html, body, #root {
-        height: 100%;
-    }
-
     body {
         background-color: #F8FDFF;
         font-family: 'Poppins', sans-serif;
     }
 
-    button {
-        background-color: none;
-        border: none;
-        outline: none;
-    }
+    // button {
+    //     background-color: none;
+    //     border: none;
+    //     outline: none;
+    // }
 
-    a {
-        text-decoration: none;
-        outline: none;
-    }
+   
+    
+      
 `
 
 export default globalStyle;
