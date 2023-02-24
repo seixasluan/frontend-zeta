@@ -12,11 +12,54 @@ const globalStyle = createGlobalStyle`
         font-family: 'Poppins', sans-serif;
     }
 
-    // button {
-    //     background-color: none;
-    //     border: none;
-    //     outline: none;
-    // }
+   /////// ESTILOS GERAIS 
+
+   .secondary-color{
+        color: #555;
+   }
+
+   .center-image{
+    background-size: cover;
+    background-position: center;
+   }
+
+   .btn{
+    text-decoration: none;
+    background-color: #25282E;
+    color: #FFF;
+    padding: 7px 18px;
+   }
+
+   .btn:hover{
+    background-color: #333;
+    color: #fff;
+   }
+
+//    IMAGES
+
+ .main-image{
+    height: 300px;
+    background-image: url('./src/assets/banner.jpg');
+    margin-bottom: 30px;
+    position: relative;
+ }
+ .main-image2{
+    height: 300px;
+    background-image: url('./src/assets/form.svg');
+    margin-bottom: 30px;
+    position: relative;
+ }
+
+ .main-image-info{
+    background-color: #fff;
+    padding: 25px;
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+ }
+
+
+
 
    
     
