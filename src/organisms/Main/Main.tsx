@@ -14,8 +14,10 @@ const Main = () => {
                     </div>
                 </div>
             <hr />
+
+            <hr />
             <Contato/>
-            </div>           
+            </div>          
         </section>
         
 )}

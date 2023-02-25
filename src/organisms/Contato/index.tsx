@@ -4,6 +4,7 @@ import { Col, Button, Form, FormGroup, Input, Label } from 'reactstrap';
 const Contato = () => {
     return (
         <Form>
+            <h3>Fale conosco:</h3>
             <FormGroup>
                 <Label for="Name">
                     Nome:
