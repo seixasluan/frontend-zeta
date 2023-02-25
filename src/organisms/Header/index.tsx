@@ -13,7 +13,7 @@ const Header = () => {
                         <a className="nav-link active" aria-current="page" href="#">Soluções</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link active" href="#">Contato</a>
+                        <a className="nav-link active" href="contato">Contato</a>
                     </li>
                     <li className="nav-item dropdown ">
                         <a className="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
