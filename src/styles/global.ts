@@ -35,6 +35,18 @@ const globalStyle = createGlobalStyle`
     color: #fff;
    }
 
+   .b1 {
+      text-decoration: none;
+      background-color: #25282E;
+      color: #FFF;
+      padding: 7px 18px;
+   }
+
+   .b1:hover{
+      background-color: #333;
+      color: #fff;
+     }
+   
 //    IMAGES
 
  .main-image{
@@ -52,18 +64,13 @@ const globalStyle = createGlobalStyle`
 
  .main-image-info{
     background-color: #fff;
+    font-weight: 500;
     padding: 25px;
     position: absolute;
     left: 25px;
     bottom: 25px;
  }
 
-
-
-
-   
-    
-      
 `
 
 export default globalStyle;

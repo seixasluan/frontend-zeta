@@ -1,4 +1,4 @@
-
+import Contato from "../Contato";
 
 const Main = () => {
     return(
@@ -9,11 +9,12 @@ const Main = () => {
                 <div className="main-image center-image">
                     <div className="main-image-info">
                         <h3>Zeta Tecnologia <br/> e Inovação</h3>
-                        <p className="secondary-color">Startup do Parque Tecnológico.</p>
+                        <p className="secondary-color">Startup do Parque Tecnológico</p>
                         <a href=""className="btn">Saiba Mais</a>
                     </div>
                 </div>
             <hr />
+            <Contato/>
             </div>           
         </section>
         
