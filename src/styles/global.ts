@@ -23,6 +23,14 @@ const globalStyle = createGlobalStyle`
       background-position: center;
    }
 
+   .contato {
+      padding-top: 40px;
+   }
+
+   .contato h3 {
+      font-size: 35px;
+   }
+
    .btn{
       text-decoration: none;
       background-color: #25282E;

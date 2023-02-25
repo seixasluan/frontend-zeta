@@ -1,4 +1,4 @@
-import Contato from "../Contato";
+import Contato from "../../pages/contact";
 
 const Main = () => {
     return(
@@ -13,10 +13,8 @@ const Main = () => {
                         <a href=""className="btn">Saiba Mais</a>
                     </div>
                 </div>
-            <hr />
-
-            <hr />
-            <Contato/>
+                <hr />
+                <hr />
             </div>          
         </section>
         
