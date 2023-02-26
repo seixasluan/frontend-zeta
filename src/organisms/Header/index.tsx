@@ -1,27 +1,28 @@
- 
+ import { Link } from "react-router-dom";
+
 const Header = () => {
     return(
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark mb-5">
             <div className="container">
-                <a className="navbar-brand" href="/">Zeta</a>
+                <Link className="navbar-brand" to='/'>Zeta</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li className="nav-item">
-                        <a className="nav-link active" aria-current="page" href="solucoes">Soluções</a>
+                        <Link className="nav-link active" aria-current="page" to="solucoes">Soluções</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link active" href="contato">Contato</a>
+                        <Link className="nav-link active" to="contato">Contato</Link>
                     </li>
                     <li className="nav-item dropdown ">
                         <a className="nav-link dropdown-toggle active" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Sobre nós
                         </a>
                         <ul className="dropdown-menu pr-10" aria-labelledby="navbarDropdown">
-                            <li><a className="dropdown-item " href="sobre-nos">Quem Somos</a></li>
-                            <li><a className="dropdown-item " href="sobre-nos">Missão e Valores</a></li>
+                            <li><Link className="dropdown-item " to="sobre-nos">Quem Somos</Link></li>
+                            <li><Link className="dropdown-item " to="sobre-nos">Missão e Valores</Link></li>
                         </ul>
                     </li>
                 </ul>

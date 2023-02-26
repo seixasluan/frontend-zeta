@@ -3,10 +3,9 @@ import { Col, Button, Modal, ModalBody, ModalFooter, ModalHeader,  Form, FormGro
 
 const Contato = () => {
 
-    function sendMesage(args: any) {
+    function sendMesage() {
         const [modal, setModal] = useState(false);
         const toggle = () => setModal(!modal);
-        const name = Input
         return (
             <div className="container contato">
                 <Form>
@@ -61,7 +60,7 @@ const Contato = () => {
                             <Button color="" onClick={toggle}>
                                 Enviar
                             </Button>
-                            <Modal isOpen={modal} toggle={toggle} {...args}>
+                            <Modal isOpen={modal} toggle={toggle}>
                                 <ModalHeader toggle={toggle}>Menssagem Enviada!</ModalHeader>
                                     <ModalBody>
                                         Sua mensagem foi enviada com sucesso!
@@ -80,4 +79,5 @@ const Contato = () => {
     //@ts-ignore
     return sendMesage();
 }
+
 export default Contato;
