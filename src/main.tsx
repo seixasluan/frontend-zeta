@@ -1,32 +1,34 @@
-import React, { Children } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
 import GlobalStyle from './styles/global';
 import ErrorPage from './pages/ErrorPage';
-import Contato from './pages/Contato';
+import Contato from './organisms/Contato/Contato';
 import Home from './pages/Home';
+import Solucoes from './pages/Solucoes';
 
 // 1- configurando router
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import SobreNos from './pages/SobreNos';
 
 const router = createBrowserRouter([
   {
     path:  '/',
-    errorElement: <ErrorPage/>,
-    element: <Home/>,
+    errorElement: <ErrorPage />,
+    element: <Home />,
     children: [
       {
         path: 'contato',
-        element: <Contato/>,
-      },
-      {
-        path: 'sobre-nos',
-        element: '',
+        element: <Contato />,
       },
       {
         path: 'solucoes',
-        element: '',
+        element: <Solucoes />,
       },
     ]
+  },
+  {
+    path: 'quem-somos',
+    element: <SobreNos />,
   }
 ]);
 

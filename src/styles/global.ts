@@ -66,25 +66,42 @@ const globalStyle = createGlobalStyle`
 
  .main-image{
       height: 300px;
+      border-radius: 5px;
       background-image: url('./src/assets/banner.jpg');
       margin-bottom: 30px;
       position: relative;
  }
- .main-image2{
+ .about-image{
       height: 300px;
-      background-image: url('./src/assets/form.svg');
+      border-radius: 5px;
+      background-image: url('./src/assets/compressor.jfif');
       margin-bottom: 30px;
       position: relative;
  }
 
  .main-image-info{
       background-color: #fff;
+      border-radius: 5px;
       font-weight: 500;
       padding: 25px;
       position: absolute;
       left: 25px;
       bottom: 25px;
  }
+
+ .about-image-info{
+   background-color: #fff;
+   border-radius: 5px;
+   font-weight: 500;
+   padding: 5px;
+   position: absolute;
+   left: 5px;
+   top: 5px;
+}
+
+ .secondary-color2{
+   color: #555;
+}
 
 `
 

@@ -2,7 +2,7 @@ const Footer = () => {
     return(
     
      <div className='footer-block bg-dark position-relative'>
-        <footer className="">© Luan Seixas - 2023</footer>
+        <footer className="">Zeta</footer>
      </div>
    
 )}

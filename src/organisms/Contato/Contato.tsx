@@ -1,11 +1,12 @@
 import { useState } from 'react';
-import { Col, Button, Modal, ModalBody, ModalFooter, ModalHeader,  Form, FormGroup, Input, Label } from 'reactstrap';
+import { Col, Button, Modal, ModalBody, ModalFooter, ModalHeader, Form, FormGroup, Input, Label } from 'reactstrap';
 
 const Contato = () => {
 
     function sendMesage() {
         const [modal, setModal] = useState(false);
         const toggle = () => setModal(!modal);
+
         return (
             <div className="container contato">
                 <Form>
@@ -18,6 +19,7 @@ const Contato = () => {
                             id='Name'
                             name='Name'
                             placeholder='Ex: Jõao da Silva'
+                            required={true}
                         />
                     </FormGroup>
                     <FormGroup>
@@ -29,29 +31,32 @@ const Contato = () => {
                             name="Email"
                             placeholder="exemplo@exemplo.com"
                             type="email"
+                            required={true}
                         />
                     </FormGroup>
                     <FormGroup>
                         <Label for="Telephone">
-                            Telefone: 
+                            Telefone:
                         </Label>
                         <Input
                             id="Telephone"
                             name="Telephone"
                             placeholder="Ex: +55 (12) 99999-9999"
                             type="tel"
+                            required={true}
                         />
                     </FormGroup>
                     <FormGroup row>
                         <Label for="Message">
-                            Área de texto: 
+                            Área de texto:
                         </Label>
-                        <Col sm={12}>  
+                        <Col sm={12}>
                             <Input
                                 id="TextArea"
                                 name="TextArea"
                                 placeholder="Menssagem que deseja enviar."
                                 type="textarea"
+                                required={true}
                             />
                         </Col>
                     </FormGroup>
@@ -62,20 +67,21 @@ const Contato = () => {
                             </Button>
                             <Modal isOpen={modal} toggle={toggle}>
                                 <ModalHeader toggle={toggle}>Menssagem Enviada!</ModalHeader>
-                                    <ModalBody>
-                                        Sua mensagem foi enviada com sucesso!
-                                    </ModalBody>
-                                    <ModalFooter>
-                                        <Button color="primary" onClick={toggle}>
-                                            Ok
-                                        </Button>
-                                    </ModalFooter>
+                                <ModalBody>
+                                    Sua mensagem foi enviada com sucesso! <br />
+                                </ModalBody>
+                                <ModalFooter>
+                                    <Button color="primary" onClick={toggle}>
+                                        Ok
+                                    </Button>
+                                </ModalFooter>
                             </Modal>
                         </Col>
                     </FormGroup>
                 </Form>
             </div>
-    )};
+        )
+    };
     //@ts-ignore
     return sendMesage();
 }
