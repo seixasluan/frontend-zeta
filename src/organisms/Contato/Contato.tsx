@@ -9,8 +9,8 @@ const Contato = () => {
 
         return (
             <div className="container contato">
+                <h3>Fale conosco:</h3>
                 <Form>
-                    <h3>Fale conosco:</h3>
                     <FormGroup>
                         <Label for="Name">
                             Nome:
@@ -62,7 +62,7 @@ const Contato = () => {
                     </FormGroup>
                     <FormGroup>
                         <Col xs={3}>
-                            <Button color="" onClick={toggle}>
+                            <Button  onClick={toggle}>
                                 Enviar
                             </Button>
                             <Modal isOpen={modal} toggle={toggle}>

@@ -4,7 +4,7 @@ import GlobalStyle from './styles/global';
 import ErrorPage from './pages/ErrorPage';
 import Contato from './organisms/Contato/Contato';
 import Home from './pages/Home';
-import Solucoes from './pages/Solucoes';
+import Solucoes from './organisms/Solucoes/Solucoes';
 
 // 1- configurando router
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'

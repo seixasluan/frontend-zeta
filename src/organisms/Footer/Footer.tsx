@@ -1,8 +1,8 @@
 const Footer = () => {
     return(
     
-     <div className='footer-block bg-dark position-relative'>
-        <footer className="">Zeta</footer>
+     <div className='fixFooter'>
+            <p>&copy; Luan Seixas - 2023</p>
      </div>
    
 )}

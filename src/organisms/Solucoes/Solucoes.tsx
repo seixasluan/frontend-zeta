@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Solucoes = () => {
   return (
     <section className='container' id='main-image-container'>

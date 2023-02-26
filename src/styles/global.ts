@@ -24,7 +24,7 @@ const globalStyle = createGlobalStyle`
    }
 
    .contato {
-      padding-top: 40px;
+      padding-top: 10px;
    }
 
    .contato h3 {
@@ -93,14 +93,25 @@ const globalStyle = createGlobalStyle`
    background-color: #fff;
    border-radius: 5px;
    font-weight: 500;
-   padding: 5px;
+   padding: 25px;
    position: absolute;
    left: 5px;
    top: 5px;
 }
 
- .secondary-color2{
-   color: #555;
+.sobrenos {
+   padding-bottom: 30px;
+   padding-left: 20px;
+}
+
+.fixFooter {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #222;
+   color: #FFF;
+   text-align: center;
 }
 
 `
