@@ -17,3 +17,8 @@ Finalizado
 <code>yarn add reactstrap</code>
 <code>yarn add react-router-dom</code>
 <code>yarn add react-dom</code>
+
+# Como rodar o projeto
+
+Para Executá-lo basta colocar os arquivos no vscode do jeito que estao organizados no repositório e em seguida digitar no terminal <code>yarn dev</code>.
+Logo em seguida irá aparecer o link do localhost que você deverá acessar e pronto!
