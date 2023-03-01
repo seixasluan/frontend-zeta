@@ -24,6 +24,10 @@ const SobreNos = () => {
             Nossos valores são os princípios de relacionamentos 
             transparentes e respeito a todos clientes e colaboradores.
           </p>
+          <hr />
+          <h2>Alguma dúvida?</h2>
+          <p>Clique no botão e entre em contato conosco!</p>
+          <a href="contato" className='btn'>Clique aqui</a>
         </section>
         <Footer />
     </>

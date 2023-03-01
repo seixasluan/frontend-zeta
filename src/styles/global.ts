@@ -81,7 +81,7 @@ const globalStyle = createGlobalStyle`
 
  .mesage-image {
    margin-top: 3rem;
-   height: 696px;
+   height: 690px;
    border-radius: 5px;
    background-image: url('./src/assets/mesage.svg');
    margin-bottom: 7rem;
@@ -134,6 +134,10 @@ const globalStyle = createGlobalStyle`
    background-color: #222;
    color: #FFF;
    text-align: center;
+}
+
+.btnContato {
+   margin-bottom: 7rem;
 }
 
 `

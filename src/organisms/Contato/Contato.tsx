@@ -62,7 +62,7 @@ const Contato = () => {
                     </FormGroup>
                     <FormGroup>
                         <Col xs={3}>
-                            <Button  onClick={toggle}>
+                            <Button  className='btnContato' onClick={toggle}>
                                 Enviar
                             </Button>
                             <Modal isOpen={modal} toggle={toggle}>
