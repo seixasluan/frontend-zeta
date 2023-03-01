@@ -12,9 +12,16 @@ const Main = () => {
                     </div>
                 </div>
                 <hr />
+                <div className="mesage-image center-image">
+                    <div className="mesage-image-info">
+                        <h3>O Que São <br /> Sistemas Embarcados?</h3>
+                        <hr />
+                        <p className="secondary-color">Dispositivos com capacidade <br /> de processamento de dados <br /> e que estão inseridos em um <br /> determinado dispositivo ou <br /> produto, de forma a desempenhar <br /> uma função ou servir a uma aplicação <br/> específica.</p>
+                    </div>
+                </div>
             </div>          
         </section>
-        
+  
 )}
 
 export default Main;

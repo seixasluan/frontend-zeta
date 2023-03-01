@@ -79,6 +79,15 @@ const globalStyle = createGlobalStyle`
       position: relative;
  }
 
+ .mesage-image {
+   margin-top: 3rem;
+   height: 696px;
+   border-radius: 5px;
+   background-image: url('./src/assets/mesage.svg');
+   margin-bottom: 7rem;
+   position: relative;
+ }
+
  .main-image-info{
       background-color: #fff;
       border-radius: 5px;
@@ -89,14 +98,27 @@ const globalStyle = createGlobalStyle`
       bottom: 25px;
  }
 
+ .mesage-image-info {
+   background-color: #fff;
+   border-radius: 5px;
+   font-weight: 500;
+   padding: 15px;
+   position: absolute;
+   margin-bottom: 3rem;
+   left: 50%;
+   top: 10px;   
+ }
+
+
  .about-image-info{
    background-color: #fff;
    border-radius: 5px;
    font-weight: 500;
    padding: 25px;
    position: absolute;
-   left: 5px;
-   top: 5px;
+   left: 7px;
+   top: 7px;
+   margin-bottom: 3rem
 }
 
 .sobrenos {
